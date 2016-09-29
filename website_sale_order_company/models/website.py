@@ -18,10 +18,10 @@
 #
 ##############################################################################
 
-from openerp.osv import orm
+from odoo import models
 
 
-class website(orm.Model):
+class website(models.Model):
     _inherit = 'website'
 
     def sale_get_order(

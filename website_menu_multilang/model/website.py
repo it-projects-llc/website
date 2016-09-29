@@ -3,10 +3,10 @@
 # this module contains the full copyright notices and license terms.
 
 
-from openerp.osv import orm, fields
+from openerp import fields, models
 
 
-class WebsiteMenu(orm.Model):
+class WebsiteMenu(models.Model):
     _inherit = 'website.menu'
 
     _columns = {
