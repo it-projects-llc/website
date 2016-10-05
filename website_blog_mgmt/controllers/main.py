@@ -2,7 +2,7 @@
 # Copyright 2015 ACSONE SA/NV (<http://acsone.eu>)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from openerp.addons.web import http
+from odoo import http
 from openerp.addons.web.http import request
 from openerp.addons.website_blog.controllers.main import WebsiteBlog
 from openerp.addons.website_blog.controllers.main import QueryURL

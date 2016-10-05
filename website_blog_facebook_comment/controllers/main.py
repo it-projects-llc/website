@@ -21,7 +21,7 @@
 #
 ##############################################################################
 
-from openerp.addons.web import http
+from odoo import http
 from openerp.addons.website_blog.controllers.main import WebsiteBlog
 from openerp.http import request
 

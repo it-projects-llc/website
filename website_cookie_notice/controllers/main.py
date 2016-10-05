@@ -19,7 +19,7 @@
 #
 ##############################################################################
 
-from openerp.addons.web import http
+from odoo import http
 from openerp.http import request
 
 CONFIG_FIELDS = [

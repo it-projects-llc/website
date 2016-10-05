@@ -19,7 +19,7 @@
 ##############################################################################
 
 from openerp.addons.web.controllers.main import Binary
-from openerp.addons.web import http
+from odoo import http
 from openerp.addons.web.http import request
 import openerp
 from openerp.modules import get_module_resource
