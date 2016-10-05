@@ -21,7 +21,7 @@
 from openerp.addons.website_sale_options.controllers.main import (
     website_sale_options)
 from odoo import http
-from openerp.addons.web.http import request
+from odoo.http import request
 from openerp.tools.translate import _
 
 

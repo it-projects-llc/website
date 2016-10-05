@@ -20,7 +20,7 @@
 
 from openerp.addons.web.controllers.main import Binary
 from odoo import http
-from openerp.addons.web.http import request
+from odoo.http import request
 import openerp
 from openerp.modules import get_module_resource
 import functools
