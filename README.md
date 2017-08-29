@@ -25,11 +25,13 @@ addon | version | summary
 [website_container_fluid](website_container_fluid/) | 10.0.1.0.0 | Let you choose between fixed or fluid containers
 [website_cookie_notice](website_cookie_notice/) | 10.0.1.0.0 | Show cookie notice according to cookie law
 [website_crm_privacy_policy](website_crm_privacy_policy/) | 10.0.1.0.0 | Website CRM privacy policy
+[website_crm_quick_answer](website_crm_quick_answer/) | 10.0.1.0.0 | Add an automatic answer for contacts asking for info
 [website_crm_recaptcha](website_crm_recaptcha/) | 10.0.1.0.0 | Provides a ReCaptcha validation in Website Contact Form
 [website_field_autocomplete](website_field_autocomplete/) | 10.0.1.0.0 | Provides an autocomplete field for Website on any model
 [website_form_recaptcha](website_form_recaptcha/) | 10.0.1.0.0 | Provides a ReCaptcha field for Website Forms
 [website_legal_page](website_legal_page/) | 10.0.1.1.0 | Website Legal Page
 [website_logo](website_logo/) | 10.0.1.0.0 | Website company logo
+[website_multi_theme](website_multi_theme/) | 10.0.1.0.0 | Support different theme per website
 [website_no_crawler](website_no_crawler/) | 10.0.1.0.0 | Disables robots.txt for indexing by webcrawlers like Google
 [website_odoo_debranding](website_odoo_debranding/) | 10.0.1.0.0 | Remove odoo.com bindings on website
 [website_sale_hide_empty_category](website_sale_hide_empty_category/) | 10.0.1.0.0 | Hide any Product Categories that are empty
