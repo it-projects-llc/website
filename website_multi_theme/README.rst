@@ -114,9 +114,6 @@ Known issues / Roadmap
 
 * Private themes support is not guaranteed.
 * There is no UI to remove websites. Do it through an odoo shell.
-* The module includes workarounds that should be removed once merged upstream:
-  * https://github.com/odoo/odoo/pull/17635
-  * https://github.com/odoo/odoo/pull/17970
 * Theme picker should include some kind of thumbnail if possible.
 * If you install any of the supported themes after installing this addon, you
   will have to press *Reload* in the website config wizard to make it notice
@@ -124,14 +121,12 @@ Known issues / Roadmap
 * If you install any unsupported theme along with this addon, it would possibly
   become the base for all those supported, which can easily lead to weird
   situations and errors.
+* This addon will not work if your Odoo is not patched. Make sure it is updated
+  before installing. It must include these commits:
 
-Required bug patch
-------------------
-
-You need to include this code in your Odoo instance for the addon to work.
-No workaround possible for this one:
-
-* https://github.com/odoo/odoo/pull/18462
+  - https://github.com/odoo/odoo/commit/15bf41270d3abb607e7b623b59355594cad170cf
+  - https://github.com/odoo/odoo/commit/7c6714d7fee4125f037ef194f9cff5235a6c5320
+  - https://github.com/odoo/odoo/commit/48fe0a595308722a26afd5361432f24c610b4ba0
 
 Credits
 =======
